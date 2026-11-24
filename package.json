@@ -1,0 +1,9 @@
+{
+  "name": "practica-devops",
+  "version": "1.0.0",
+  "description": "Aplicacion Hola Mundo con JavaScript",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
