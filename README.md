@@ -48,7 +48,7 @@ http://localhost:3000
 
 La imagen de Docker se encuentra publicada en Docker Hub:
 
-https://hub.docker.com/r/TU_USUARIO/holamundo-devops
+https://hub.docker.com/r/elprodigi/holamundo-devops
 
 ## Autor
 Jean Carlos Cabral Paniagua / 2025-1380
