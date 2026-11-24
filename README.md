@@ -1,25 +1,20 @@
-Práctica DevOps - Hola Mundo
+# Práctica DevOps - Hola Mundo
 
-Descripción
-
+## Descripción
 Este proyecto consiste en desarrollar una aplicación web sencilla utilizando JavaScript y Node.js, para posteriormente crear una imagen Docker y publicarla en Docker Hub.
 
 La práctica permite conocer algunos conceptos básicos del ciclo DevOps, incluyendo el desarrollo, la contenerización y la distribución de aplicaciones.
 
-Tecnologías utilizadas
+## Tecnologías utilizadas
+- JavaScript
+- Node.js
+- Docker
+- Docker Hub
+- Git y GitHub
 
-JavaScript
+## Estructura del proyecto
 
-Node.js
-
-Docker
-
-Docker Hub
-
-Git y GitHub
-
-Estructura del proyecto
-
+```text
 PracticaDevOps/
 │
 ├── server.js
@@ -27,29 +22,33 @@ PracticaDevOps/
 ├── Dockerfile
 ├── .gitignore
 └── README.md
+```
 
-Ejecución del proyecto
+## Ejecución del proyecto
 
-1. Construir la imagen Docker
+### 1. Construir la imagen Docker
 
+```bash
 docker build -t holamundo-devops .
+```
 
-2. Ejecutar el contenedor
+### 2. Ejecutar el contenedor
 
+```bash
 docker run -d -p 3000:3000 --name hola-mundo holamundo-devops
+```
 
-3. Abrir la aplicación
+### 3. Abrir la aplicación
 
 Acceder desde el navegador a:
 
 http://localhost:3000
 
-Docker Hub
+## Docker Hub
 
 La imagen de Docker se encuentra publicada en Docker Hub:
 
 https://hub.docker.com/r/TU_USUARIO/holamundo-devops
 
-Autor
-
+## Autor
 Jean Carlos Cabral Paniagua / 2025-1380
